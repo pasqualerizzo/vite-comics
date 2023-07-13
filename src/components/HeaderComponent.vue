@@ -14,13 +14,95 @@ export default {
 
 <template>
     <header>
-        HEADER
+        <div class="container">
+            <img src="../assets/img/dc-logo.png" alt="">
+        <ul>
+            <li>
+                <a href="#">
+                    CHARACTERS
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    COMICS
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    MOVIES
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    TV
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    GAMES
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    COLLECTIBLES
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    VIDEOS
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    FANS
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    NEWS
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    SHOP
+                </a>
+            </li>
+        </ul>
+
+        </div>
+        
     </header>
 </template>
 
 <style lang="scss" scoped>
-header {
-    padding: 40px;
-    text-align: center;
-}
+
+    header {
+        background-color: #ffff;
+    }
+    .container {
+        padding: 40px;
+        background-color: #ffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        max-width: 1200px;
+        margin:auto
+    }
+    header img {
+        height: 75px;
+    }
+    header ul {
+        display: inline;
+    }
+    header ul li {
+        display: inline;
+        margin-left: 15px;
+    }
+    header a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+
 </style>

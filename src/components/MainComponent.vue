@@ -14,7 +14,9 @@ export default {
 
 <template>
     <main>
-        MAIN
+        <div class="container">
+            content goes here
+        </div>
     </main>
 </template>
 
@@ -22,6 +24,12 @@ export default {
 @use "../assets/scss/partials/variables.scss" as *;
 
 main {
-    padding: $main-padding;
+    background-color: black;
+}
+.container {
+    padding: 40px;
+    background-color: black;
+    max-width: 1200px;
+    margin: auto;
 }
 </style>
