@@ -80,12 +80,11 @@ export default {
         background-color: #ffff;
     }
     .container {
-        padding: 40px;
+        padding: 20px;
         background-color: #ffff;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 150px;
         max-width: 1200px;
         margin:auto
     }
@@ -103,6 +102,6 @@ export default {
         text-decoration: none;
         color: black;
         font-size: 12px;
-    }
+    };
 
 </style>

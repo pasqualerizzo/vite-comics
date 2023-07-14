@@ -1,6 +1,7 @@
 <script>
 export default {
     name: "MainComponent",
+
     data() {
         return {
 
@@ -25,11 +26,11 @@ export default {
 
 main {
     background-color: black;
-}
+};
 .container {
     padding: 40px;
     background-color: black;
     max-width: 1200px;
     margin: auto;
-}
+};
 </style>
