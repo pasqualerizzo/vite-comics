@@ -23,7 +23,7 @@ export default {
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a class="active" href="#">
                     COMICS
                 </a>
             </li>
@@ -103,5 +103,11 @@ export default {
         color: black;
         font-size: 12px;
     };
-
+    header a:hover {
+        color: blue;
+        font-weight: 600;
+    }
+    .active {
+        color: blue;
+    }
 </style>
